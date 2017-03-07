@@ -19,18 +19,17 @@
 #
 ##############################################################################
 {
-    'name': 'IBAN Bank Accounts',
-    'version': '1.0',
-    'category': 'Hidden/Dependency',
+    'name': 'FMEA Failure Mode Effect Analysis',
+    'version': '0.1',
+    'category': 'Engineering',
     'description': """
-This module installs the base for IBAN (International Bank Account Number) bank accounts and checks for it's validity.
+This module installs the base for FMEA (Failure Mode Effect Analysis) 
 ======================================================================================================================
 
-The ability to extract the correctly represented local accounts from IBAN accounts 
-with a single statement.
+The ability to extract to design systems and components according functional abilities.
     """,
-    'author': 'OpenERP SA',
-    'website': 'https://www.odoo.com',
+    'author': 'diethelm engineering',
+    'website': 'www.diethelm-engineering.ch',
     'depends': ['base'],
     'data': ['defmea_data.xml' , 'defmea_view.xml'],
     'installable': True,
