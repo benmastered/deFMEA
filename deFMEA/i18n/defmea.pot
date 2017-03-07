@@ -26,56 +26,5 @@ msgstr ""
 msgid "%(bank_name)s: IBAN %(acc_number)s - BIC %(bank_bic)s"
 msgstr ""
 
-#. module: defmea
-#: model:ir.model,name:defmea.model_res_partner_bank
-msgid "Bank Accounts"
-msgstr ""
 
-#. module: defmea
-#: field:res.partner.bank,iban:0
-msgid "IBAN"
-msgstr ""
-
-#. module: defmea
-#: model:res.partner.bank.type,name:defmea.bank_iban
-msgid "IBAN Account"
-msgstr ""
-
-#. module: defmea
-#: help:res.partner.bank,iban:0
-msgid "International Bank Account Number"
-msgstr ""
-
-#. module: defmea
-#: code:addons/defmea/defmea.py:138
-#, python-format
-msgid "The IBAN does not seem to be correct. You should have entered something like this %s"
-msgstr ""
-
-#. module: defmea
-#: code:addons/defmea/defmea.py:142
-#, python-format
-msgid "The IBAN is invalid, it should begin with the country code"
-msgstr ""
-
-#. module: defmea
-#: code:addons/defmea/defmea.py:141
-#, python-format
-msgid "This IBAN does not pass the validation check, please verify it"
-msgstr ""
-
-#. module: defmea
-#: model:res.partner.bank.type.field,name:defmea.bank_swift_field
-msgid "bank_bic"
-msgstr ""
-
-#. module: defmea
-#: model:res.partner.bank.type.field,name:defmea.bank_country_field
-msgid "country_id"
-msgstr ""
-
-#. module: defmea
-#: model:res.partner.bank.type.field,name:defmea.bank_zip_field
-msgid "zip"
-msgstr ""
 
